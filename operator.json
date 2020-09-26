@@ -4,6 +4,6 @@
   "tags": ["forensics", "genetics"],
   "authors": ["tercen"],
   "urls": ["https://github.com/agouy/STRAF"],
-  "container": "tercen/CONTAINER_NAME:TAG",
+  "container": "agouy/straf_docker:1.1.0",
   "isWebApp": true
 }
