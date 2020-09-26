@@ -17,8 +17,8 @@
 ## Build the image
 
 ```bash
-VERSION=0.10.0.1
-docker build -t tercen/shiny_docker_operator:$VERSION .
-docker push tercen/shiny_docker_operator:$VERSION
+VERSION=1.1.0
+docker build -t agouy/STRAF_docker:$VERSION .
+docker push tercen/STRAF_docker:$VERSION
 git add -A && git commit -m "$VERSION" && git tag  $VERSION  && git push && git push --tags
 ```
