@@ -1,11 +1,9 @@
 {
-  "name": "OPERATOR NAME",
-  "description": "DESCRIPTION",
-  "tags": ["basic statistics"],
+  "name": "STRAF",
+  "description": "STR Analysis for Forensics (STRAF) in Tercen",
+  "tags": ["forensics", "genetics"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/OPERATOR_NAME"],
+  "urls": ["https://github.com/agouy/STRAF"],
   "container": "tercen/CONTAINER_NAME:TAG",
-  "isWebApp": false
+  "isWebApp": true
 }
-
-
