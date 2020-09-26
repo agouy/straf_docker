@@ -19,6 +19,6 @@
 ```bash
 VERSION=1.1.0
 docker build -t agouy/STRAF_docker:$VERSION .
-docker push tercen/STRAF_docker:$VERSION
+docker push agouy/STRAF_docker:$VERSION
 git add -A && git commit -m "$VERSION" && git tag  $VERSION  && git push && git push --tags
 ```
