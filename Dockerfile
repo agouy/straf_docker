@@ -8,12 +8,12 @@ RUN apt-get install -y libudunits2-dev
 RUN apt-get update
 RUN apt-get install -y libgdal-dev
 
-RUN git clone https://github.com/agouy/STRAF.git
+RUN git clone https://github.com/agouy/straf.git
 
-WORKDIR /operator/STRAF
+WORKDIR /operator/straf
 
-RUN echo 1.1.0 && git pull
-RUN git checkout 1.1.0
+RUN echo 1.1.1 && git pull
+RUN git checkout 1.1.1
 
 RUN R -e "renv::restore(confirm=FALSE)"
 
